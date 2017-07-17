@@ -17,37 +17,32 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+
+// Typography Styles
 h1,h2,h3 {
 	font-family: 'Open Sans', sans-serif;
 }
 
+// Navbar Styles
 .navbar-default {
 	background: #0D2939;
 	border: none;
 }
 
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+	color: #ffffff;
+	&:hover {
+		color: #ffffff;
+		opacity: 0.8;
+	}
+}
+
+// Homepage Styles
 .home-callout {
 	color: #ffffff;
 	background: #0D2939;
 	margin-top: -20px;
 	padding-top: 50px;
 	padding-bottom: 100px;
-}
-
-.navbar-default .navbar-brand {
-	color: #ffffff;
-}
-
-.navbar-default .navbar-nav > li > a {
-    color: #ffffff;
-}
-
-.navbar-default .navbar-brand:hover {
-	color: #ffffff;
-	opacity: 0.8;
-}
-
-.navbar-default .navbar-nav > li > a:hover {
-    color: #ffffff;
-    opacity: 0.8;
 }
